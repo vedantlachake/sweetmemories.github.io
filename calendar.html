@@ -1,0 +1,566 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Photo Calendar</title>
+	<style>
+		@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Display:400|Poppins:400,700,900,300,600,800");
+.canvas {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 2523px;
+  overflow: hidden;
+  width: 1600.px;
+}
+.canvas .about {
+  cursor: pointer;
+  height: 22px;
+  margin-bottom: 12.29px;
+  margin-left: 85px;
+  overflow-y: scroll;
+  pointer-events: auto;
+  position: relative;
+  transition: all 0.2s ease;
+  width: 53px;
+}
+.canvas .about-i4770112 {
+  left: 0px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 0px;
+  width: 55px;
+}
+.canvas .about::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+.canvas .about:hover {
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+}
+.canvas .buy-now {
+  left: 0px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  top: 1px;
+  width: 326px;
+}
+.canvas .contact-us {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 22px;
+  margin-bottom: 12.29px;
+  margin-left: 62px;
+  min-width: 85px;
+}
+.canvas .flex-row {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 130px;
+  margin-top: 71px;
+  min-width: 814px;
+}
+.canvas .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 108px;
+  margin-left: 131px;
+  margin-top: 6px;
+  min-width: 721px;
+}
+.canvas .for-social-media {
+  letter-spacing: 0px;
+  margin-left: 127px;
+  margin-top: 119px;
+  min-height: 66px;
+  text-align: center;
+  width: 955px;
+}
+.canvas .group-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 63px;
+  min-width: 74px;
+}
+.canvas .group-17 {
+  height: 88px;
+  margin-left: 9px;
+  margin-top: 47px;
+  width: 325px;
+}
+.canvas .group-18 {
+  height: 367px;
+  left: 0px;
+  position: absolute;
+  top: 140px;
+  width: 407px;
+}
+.canvas .group-19 {
+  height: 367px;
+  left: 413px;
+  position: absolute;
+  top: 140px;
+  width: 407px;
+}
+.canvas .group-2 {
+  cursor: pointer;
+  height: 53px;
+  margin-bottom: 1.63px;
+  margin-left: 75px;
+  pointer-events: auto;
+  transition: all 0.2s ease;
+  width: 168px;
+}
+.canvas .group-2-1 {
+  height: 367px;
+  width: 407px;
+}
+.canvas .group-20 {
+  height: 367px;
+  left: 785px;
+  position: absolute;
+  top: 140px;
+  width: 407px;
+}
+.canvas .group-24 {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  min-width: 283px;
+}
+.canvas .group-2:hover {
+  transform: scale(1.1);
+}
+.canvas .group-34 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 51px;
+  min-height: 108px;
+  position: absolute;
+  top: 513px;
+  width: 330px;
+}
+.canvas .group-35 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 449px;
+  min-height: 108px;
+  position: absolute;
+  top: 506px;
+  width: 330px;
+}
+.canvas .group-36 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 847px;
+  min-height: 108px;
+  position: absolute;
+  top: 506px;
+  width: 330px;
+}
+.canvas .group-37 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 108px;
+  width: 330px;
+}
+.canvas .group-38 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 61px;
+  min-height: 108px;
+  width: 330px;
+}
+.canvas .group-4 {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  margin-left: -150px;
+  margin-top: -15px;
+  min-width: 1602px;
+}
+.canvas .home {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 22px;
+  margin-bottom: 12.29px;
+  margin-left: 272px;
+  min-width: 47px;
+}
+.canvas .log-in-i4773117 {
+  letter-spacing: 0px;
+  min-height: 29px;
+  width: 82px;
+}
+.canvas .overlap-group {
+  height: 614px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 1192px;
+}
+.canvas .overlap-group-1 {
+  height: 52px;
+  margin-right: 23px;
+  position: relative;
+  width: 193px;
+}
+.canvas .overlap-group-2 {
+  height: 43px;
+  margin-right: 4px;
+  margin-top: 13px;
+  position: relative;
+  width: 326px;
+}
+.canvas .overlap-group1 {
+  align-items: flex-end;
+  background-color: var(--white-2);
+  display: flex;
+  height: 117px;
+  justify-content: flex-end;
+  min-width: 1600px;
+  padding: 19.5px 85px;
+}
+.canvas .overlap-group11 {
+  height: 621px;
+  margin-left: 100px;
+  margin-top: 121px;
+  position: relative;
+  width: 1192px;
+}
+.canvas .overlap-group2 {
+  align-items: flex-end;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/605dc3d07a24c047f8754d1f/img/ellipse-1@2x.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 64px;
+  justify-content: flex-end;
+  margin-top: -0.4px;
+  min-width: 72px;
+  padding: 16.2px 13px;
+}
+.canvas .overlap-group3 {
+  align-items: flex-start;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/60781fa2e469567d8c8dd7d2/img/rectangle-4@2x.svg);
+  background-size: 100% 100%;
+  display: flex;
+  height: 61px;
+  justify-content: flex-end;
+  left: -4px;
+  min-width: 176px;
+  padding: 7.6px 45px;
+  position: relative;
+}
+.canvas .photo-prints-banner-1 {
+    align-self: flex-start;
+    height: 493px;
+    margin-left: -10px;
+    object-fit: cover;
+    width: 1600px;
+}
+.canvas .place {
+  letter-spacing: 0px;
+  min-height: 22px;
+  width: 49px;
+}
+.canvas .price {
+  left: 0px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  top: 23px;
+  width: 193px;
+}
+.canvas .products {
+  cursor: pointer;
+  letter-spacing: 0px;
+  margin-bottom: 12.29px;
+  margin-left: 66px;
+  min-height: 22px;
+  width: 74px;
+}
+.canvas .rectangle-27 {
+  background-color: var(--lilac);
+  height: 43px;
+  left: 41px;
+  position: absolute;
+  top: 0px;
+  width: 238px;
+}
+.canvas .starts-from {
+  left: 0px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 193px;
+}
+.canvas .surname {
+  letter-spacing: 0px;
+  margin-left: 19px;
+  margin-top: 8.78px;
+  min-height: 32px;
+  width: 190px;
+}
+.canvas .sw {
+  letter-spacing: 0px;
+  min-height: 31px;
+  text-align: center;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+  width: 44px;
+}
+.canvas .text-1 {
+  letter-spacing: 0px;
+  min-height: 22px;
+  width: 87px;
+}
+.canvas .text-2 {
+  letter-spacing: 0px;
+  margin-left: 7px;
+  margin-top: 7px;
+  min-height: 106px;
+  text-align: center;
+  width: 941px;
+}
+.canvas .text-3 {
+  left: 108px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  width: 870px;
+}
+.canvas .text-4 {
+  letter-spacing: 0px;
+  margin-left: 128px;
+  min-height: 57px;
+  text-align: center;
+  width: 1042px;
+}
+.canvas .title {
+  letter-spacing: 0px;
+  margin-left: 1px;
+  margin-top: 69px;
+  min-height: 75px;
+  text-align: center;
+  width: 627px;
+}
+* {
+  box-sizing: border-box;
+}
+.dmserifdisplay-normal-abbey-26px {
+  color: var(--abbey);
+  font-family: var(--font-family-dm_serif_display);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+.dmserifdisplay-normal-black-28px {
+  color: var(--black);
+  font-family: var(--font-family-dm_serif_display);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+.dmserifdisplay-normal-black-48px {
+  color: var(--black);
+  font-family: var(--font-family-dm_serif_display);
+  font-size: var(--font-size-xxxxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+.dmserifdisplay-normal-pale-sky-18px {
+  color: var(--pale-sky);
+  font-family: var(--font-family-dm_serif_display);
+  font-size: var(--font-size-xxs2);
+  font-style: normal;
+  font-weight: 400;
+}
+.dmserifdisplay-normal-white-24px {
+  color: var(--white);
+  font-family: var(--font-family-dm_serif_display);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+.poppins-bold-black-22px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+.poppins-bold-black-39px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxxl);
+  font-style: normal;
+  font-weight: 700;
+}
+.poppins-light-black-14px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxxxs);
+  font-style: normal;
+  font-weight: 300;
+}
+.poppins-normal-black-18px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxs2);
+  font-style: normal;
+  font-weight: 400;
+}
+.poppins-normal-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --abbey: rgba(79, 79, 79, 1);
+  --black: rgba(0, 0, 0, 1);
+  --font-family-dm_serif_display: "DM Serif Display", Helvetica;
+  --font-family-poppins: "Poppins", Helvetica;
+  --font-size-l: 26px;
+  --font-size-m: 24px;
+  --font-size-s: 22px;
+  --font-size-xl: 28px;
+  --font-size-xxs2: 18px;
+  --font-size-xxxxl: 39px;
+  --font-size-xxxxxl: 48px;
+  --font-size-xxxxxs: 14px;
+  --lilac: rgba(207, 138, 200, 1);
+  --pale-sky: rgba(113, 119, 131, 1);
+  --white: rgba(255, 255, 255, 1);
+  --white-2: rgba(255, 255, 255, 0.85);
+}
+
+	</style>
+</head>
+
+<body>
+	<div class="canvas">
+  <div class="group-4">
+    <div class="overlap-group1">
+      <div class="group-24">
+        <div class="group-1">
+          <div class="overlap-group2"><div class="sw dmserifdisplay-normal-white-24px">SW</div></div>
+        </div>
+        <div class="surname dmserifdisplay-normal-abbey-26px">Sweet Memories</div>
+      </div>
+      <div class="home"><div class="place dmserifdisplay-normal-pale-sky-18px">Home</div></div>
+      <div class="about smart-layers-pointers">
+        <div class="about-i4770112 dmserifdisplay-normal-pale-sky-18px">About</div>
+      </div>
+      <div class="products dmserifdisplay-normal-pale-sky-18px">Products</div>
+      <div class="contact-us"><div class="text-1 dmserifdisplay-normal-pale-sky-18px">Contact Us</div></div>
+      <div class="group-2 smart-layers-pointers">
+        <div class="overlap-group3"><div class="log-in-i4773117 dmserifdisplay-normal-white-24px">Log In</div></div>
+      </div>
+    </div>
+  </div>
+  <img
+    class="photo-prints-banner-1"
+    src="https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/6078595c54d0489b8747566c/img/photo-prints-banner-1-2@1x.png"
+  />
+  <h1 class="title dmserifdisplay-normal-black-48px">Canvas Prints</h1>
+  <div class="text-2 poppins-normal-black-24px">
+    Hang bursts of happiness on the wall of your choice. Transform the feel of your home or office with our 12- color
+    ink superior quality printed photos on canvas at affordable rates
+  </div>
+  <div class="overlap-group11">
+    <div class="overlap-group">
+      <div class="text-3 dmserifdisplay-normal-black-48px">Custom Canvas Prints for Your Walls</div>
+      <img
+        class="group-20"
+        src="https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/6078595c54d0489b8747566c/img/group-20-2@2x.svg"
+      />
+      <img
+        class="group-19"
+        src="https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/6078595c54d0489b8747566c/img/group-19-2@2x.svg"
+      />
+      <img
+        class="group-18"
+        src="https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/6078595c54d0489b8747566c/img/group-18-2@2x.svg"
+      />
+      <div class="group-35">
+        <div class="overlap-group-1">
+          <div class="starts-from poppins-normal-black-18px">Starts from</div>
+          <div class="price poppins-bold-black-22px">INR 1450</div>
+        </div>
+        <div class="overlap-group-2">
+          <div class="rectangle-27"></div>
+          <div class="buy-now dmserifdisplay-normal-black-28px">Buy Now</div>
+        </div>
+      </div>
+      <div class="group-36">
+        <div class="overlap-group-1">
+          <div class="starts-from poppins-normal-black-18px">Starts from</div>
+          <div class="price poppins-bold-black-22px">INR 1650</div>
+        </div>
+        <div class="overlap-group-2">
+          <div class="rectangle-27"></div>
+          <div class="buy-now dmserifdisplay-normal-black-28px">Buy Now</div>
+        </div>
+      </div>
+    </div>
+    <div class="group-34">
+      <div class="overlap-group-1">
+        <div class="starts-from poppins-normal-black-18px">Starts from</div>
+        <div class="price poppins-bold-black-22px">INR 999</div>
+      </div>
+      <div class="overlap-group-2">
+        <div class="rectangle-27"></div>
+        <div class="buy-now dmserifdisplay-normal-black-28px">Buy Now</div>
+      </div>
+    </div>
+  </div>
+  <div class="flex-row">
+    <img
+      class="group-2-1"
+      src="https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/6078595c54d0489b8747566c/img/group-21-2@2x.svg"
+    />
+    <img
+      class="group-2-1"
+      src="https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/6078595c54d0489b8747566c/img/group-22-2@2x.svg"
+    />
+  </div>
+  <div class="flex-row-1">
+    <div class="group-37">
+      <div class="overlap-group-1">
+        <div class="starts-from poppins-normal-black-18px">Starts from</div>
+        <div class="price poppins-bold-black-22px">INR 1900</div>
+      </div>
+      <div class="overlap-group-2">
+        <div class="rectangle-27"></div>
+        <div class="buy-now dmserifdisplay-normal-black-28px">Buy Now</div>
+      </div>
+    </div>
+    <div class="group-38">
+      <div class="overlap-group-1">
+        <div class="starts-from poppins-normal-black-18px">Starts from</div>
+        <div class="price poppins-bold-black-22px">INR 2250</div>
+      </div>
+      <div class="overlap-group-2">
+        <div class="rectangle-27"></div>
+        <div class="buy-now dmserifdisplay-normal-black-28px">Buy Now</div>
+      </div>
+    </div>
+  </div>
+  <div class="for-social-media poppins-bold-black-39px">FOR SOCIAL MEDIA</div>
+  <p class="text-4 poppins-light-black-14px">All CopyRights Resevered by Sweet Mermories</p>
+</div>
+</body>
+</html>
