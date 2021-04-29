@@ -4,51 +4,58 @@
 <meta charset="utf-8">
 <title>Photo Calendar</title>
 	<style>
-		@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
-@import url("https://fonts.googleapis.com/css?family=DM+Serif+Display:400|Poppins:400,700,900,300,600,800");
-.canvas {
+	.calendar {
   align-items: center;
   background-color: var(--white);
   display: flex;
   flex-direction: column;
-  height: 2523px;
+  height: 2804px;
+  mix-blend-mode: normal;
   overflow: hidden;
-  width: 1600.px;
+  width: 1440px;
 }
-.canvas .about {
+.calendar .about {
   cursor: pointer;
   height: 22px;
   margin-bottom: 12.29px;
   margin-left: 85px;
+  mix-blend-mode: normal;
   overflow-y: scroll;
   pointer-events: auto;
   position: relative;
   transition: all 0.2s ease;
   width: 53px;
 }
-.canvas .about-i4770112 {
-  left: 0px;
-  letter-spacing: 0px;
+.calendar .about-i4724112 {
+  left: 0;
+  letter-spacing: 0;
+  mix-blend-mode: normal;
   position: absolute;
-  top: 0px;
+  top: 0;
   width: 55px;
 }
-.canvas .about::-webkit-scrollbar {
+.calendar .about::-webkit-scrollbar {
   display: none;
   width: 0;
 }
-.canvas .about:hover {
-  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+.calendar .about:hover {
+
+box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.2);
 }
-.canvas .buy-now {
-  left: 0px;
-  letter-spacing: 0px;
-  position: absolute;
-  text-align: center;
-  top: 1px;
-  width: 326px;
+.calendar .at-just-inr-500 {
+  color: var(--black);
+  font-family: var(--font-family-poppins-extrabold);
+  font-size: var(--font-size-xxxxxl);
+  font-weight: 800;
+  letter-spacing: 0;
+  margin-left: 26.0px;
+  margin-top: 38px;
+  min-height: 42px;
+  min-width: 302px;
+  mix-blend-mode: normal;
+  width: 302px;
 }
-.canvas .contact-us {
+.calendar .contact-us {
   align-items: flex-start;
   cursor: pointer;
   display: flex;
@@ -56,57 +63,83 @@
   margin-bottom: 12.29px;
   margin-left: 62px;
   min-width: 85px;
+  mix-blend-mode: normal;
 }
-.canvas .flex-row {
+.calendar .contains-13-photos {
+  letter-spacing: 0;
+  min-height: 37px;
+  min-width: 269px;
+  mix-blend-mode: normal;
+  width: 269px;
+}
+.calendar .flex-row {
   align-items: flex-start;
   display: flex;
-  margin-left: 130px;
-  margin-top: 71px;
-  min-width: 814px;
+  height: 37px;
+  margin-left: 27.0px;
+  margin-top: 40px;
+  min-width: 633px;
 }
-.canvas .flex-row-1 {
+.calendar .flex-row-1 {
   align-items: flex-start;
   display: flex;
-  height: 108px;
-  margin-left: 131px;
-  margin-top: 6px;
-  min-width: 721px;
+  height: 380px;
+  margin-left: 49.0px;
+  margin-top: 41px;
+  min-width: 1243px;
 }
-.canvas .for-social-media {
-  letter-spacing: 0px;
-  margin-left: 127px;
-  margin-top: 119px;
+.calendar .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 58.0px;
+  margin-top: 49px;
+  min-width: 826px;
+}
+.calendar .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  margin-right: 23.0px;
+  margin-top: 13px;
+  min-width: 1233px;
+}
+.calendar .for-social-media {
+  color: var(--black);
+  font-family: var(--font-family-poppins-bold);
+  font-size: var(--font-size-xxxxxxl);
+  font-weight: 700;
+  letter-spacing: 0;
+  margin-left: 83.0px;
+  margin-top: 200px;
   min-height: 66px;
+  min-width: 955px;
+  mix-blend-mode: normal;
   text-align: center;
   width: 955px;
 }
-.canvas .group-1 {
+.calendar .group- {
+  height: 367px;
+  width: 407px;
+}
+.calendar .group-1 {
   align-items: flex-start;
   display: flex;
   height: 63px;
   min-width: 74px;
 }
-.canvas .group-17 {
+.calendar .group-17 {
   height: 88px;
-  margin-left: 9px;
-  margin-top: 47px;
+  margin-left: 9.0px;
+  margin-top: 28px;
   width: 325px;
 }
-.canvas .group-18 {
+.calendar .group-19 {
   height: 367px;
-  left: 0px;
+  left: 0;
   position: absolute;
-  top: 140px;
+  top: 0;
   width: 407px;
 }
-.canvas .group-19 {
-  height: 367px;
-  left: 413px;
-  position: absolute;
-  top: 140px;
-  width: 407px;
-}
-.canvas .group-2 {
+.calendar .group-2 {
   cursor: pointer;
   height: 53px;
   margin-bottom: 1.63px;
@@ -115,72 +148,44 @@
   transition: all 0.2s ease;
   width: 168px;
 }
-.canvas .group-2-1 {
+.calendar .group-20 {
   height: 367px;
-  width: 407px;
-}
-.canvas .group-20 {
-  height: 367px;
-  left: 785px;
+  left: 386px;
   position: absolute;
-  top: 140px;
+  top: 0;
   width: 407px;
 }
-.canvas .group-24 {
+.calendar .group-21 {
+  height: 367px;
+  margin-left: 2px;
+  width: 407px;
+}
+.calendar .group-22 {
+  height: 367px;
+  margin-left: 20px;
+  width: 407px;
+}
+.calendar .group-23 {
+  align-self: flex-end;
+  height: 367px;
+  width: 407px;
+}
+.calendar .group-24 {
   align-items: center;
   cursor: pointer;
   display: flex;
   min-width: 283px;
 }
-.canvas .group-2:hover {
-  transform: scale(1.1);
+.calendar .group-25 {
+  height: 367px;
+  margin-left: 12px;
+  width: 407px;
 }
-.canvas .group-34 {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  left: 51px;
-  min-height: 108px;
-  position: absolute;
-  top: 513px;
-  width: 330px;
+.calendar .group-2:hover {
+
+transform: scale(1.1);
 }
-.canvas .group-35 {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  left: 449px;
-  min-height: 108px;
-  position: absolute;
-  top: 506px;
-  width: 330px;
-}
-.canvas .group-36 {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  left: 847px;
-  min-height: 108px;
-  position: absolute;
-  top: 506px;
-  width: 330px;
-}
-.canvas .group-37 {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  min-height: 108px;
-  width: 330px;
-}
-.canvas .group-38 {
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-  margin-left: 61px;
-  min-height: 108px;
-  width: 330px;
-}
-.canvas .group-4 {
+.calendar .group-4 {
   align-items: flex-start;
   align-self: flex-start;
   display: flex;
@@ -188,7 +193,7 @@
   margin-top: -15px;
   min-width: 1602px;
 }
-.canvas .home {
+.calendar .home {
   align-items: flex-start;
   cursor: pointer;
   display: flex;
@@ -196,33 +201,21 @@
   margin-bottom: 12.29px;
   margin-left: 272px;
   min-width: 47px;
+  mix-blend-mode: normal;
 }
-.canvas .log-in-i4773117 {
-  letter-spacing: 0px;
+.calendar .log-in-i4727117 {
+  letter-spacing: 0;
   min-height: 29px;
+  mix-blend-mode: normal;
   width: 82px;
 }
-.canvas .overlap-group {
-  height: 614px;
-  left: 0px;
-  position: absolute;
-  top: 0px;
-  width: 1192px;
-}
-.canvas .overlap-group-1 {
-  height: 52px;
-  margin-right: 23px;
+.calendar .overlap-group {
+  height: 367px;
+  margin-left: 33px;
   position: relative;
-  width: 193px;
+  width: 793px;
 }
-.canvas .overlap-group-2 {
-  height: 43px;
-  margin-right: 4px;
-  margin-top: 13px;
-  position: relative;
-  width: 326px;
-}
-.canvas .overlap-group1 {
+.calendar .overlap-group1 {
   align-items: flex-end;
   background-color: var(--white-2);
   display: flex;
@@ -231,14 +224,7 @@
   min-width: 1600px;
   padding: 19.5px 85px;
 }
-.canvas .overlap-group11 {
-  height: 621px;
-  margin-left: 100px;
-  margin-top: 121px;
-  position: relative;
-  width: 1192px;
-}
-.canvas .overlap-group2 {
+.calendar .overlap-group2 {
   align-items: flex-end;
   background-image: url(https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/605dc3d07a24c047f8754d1f/img/ellipse-1@2x.svg);
   background-size: 100% 100%;
@@ -249,7 +235,7 @@
   min-width: 72px;
   padding: 16.2px 13px;
 }
-.canvas .overlap-group3 {
+.calendar .overlap-group3 {
   align-items: flex-start;
   background-image: url(https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/60781fa2e469567d8c8dd7d2/img/rectangle-4@2x.svg);
   background-size: 100% 100%;
@@ -261,306 +247,226 @@
   padding: 7.6px 45px;
   position: relative;
 }
-.canvas .photo-prints-banner-1 {
-    align-self: flex-start;
-    height: 493px;
-    margin-left: -10px;
-    object-fit: cover;
-    width: 1600px;
+.calendar .photo-prints-banner-1 {
+  align-self: flex-start;
+  height: 493px;
+  margin-left: -10px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  width: 1450px;
 }
-.canvas .place {
-  letter-spacing: 0px;
+.calendar .place {
+  letter-spacing: 0;
   min-height: 22px;
+  mix-blend-mode: normal;
   width: 49px;
 }
-.canvas .price {
-  left: 0px;
-  letter-spacing: 0px;
-  position: absolute;
-  text-align: center;
-  top: 23px;
-  width: 193px;
-}
-.canvas .products {
+.calendar .products {
   cursor: pointer;
-  letter-spacing: 0px;
+  letter-spacing: 0;
   margin-bottom: 12.29px;
   margin-left: 66px;
   min-height: 22px;
+  min-width: 74px;
+  mix-blend-mode: normal;
   width: 74px;
 }
-.canvas .rectangle-27 {
-  background-color: var(--lilac);
-  height: 43px;
-  left: 41px;
-  position: absolute;
-  top: 0px;
-  width: 238px;
+.calendar .size-6-x-9 {
+  letter-spacing: 0;
+  margin-left: 196px;
+  min-height: 37px;
+  mix-blend-mode: normal;
+  width: 168px;
 }
-.canvas .starts-from {
-  left: 0px;
-  letter-spacing: 0px;
-  position: absolute;
-  text-align: center;
-  top: 0px;
-  width: 193px;
-}
-.canvas .surname {
-  letter-spacing: 0px;
+.calendar .surname {
+  color: var(--abbey);
+  font-family: var(--font-family-dm_serif_display-regular);
+  font-size: var(--font-size-l);
+  letter-spacing: 0;
   margin-left: 19px;
   margin-top: 8.78px;
   min-height: 32px;
+  min-width: 190px;
+  mix-blend-mode: normal;
   width: 190px;
 }
-.canvas .sw {
-  letter-spacing: 0px;
+.calendar .sw {
+  letter-spacing: 0;
   min-height: 31px;
+  min-width: 44px;
+  mix-blend-mode: normal;
   text-align: center;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.25);
+  text-shadow: 2px 2px 6px #00000040;
   width: 44px;
 }
-.canvas .text-1 {
-  letter-spacing: 0px;
+.calendar .text-1 {
+  letter-spacing: 0;
   min-height: 22px;
+  mix-blend-mode: normal;
   width: 87px;
 }
-.canvas .text-2 {
-  letter-spacing: 0px;
-  margin-left: 7px;
+.calendar .text-2 {
+  color: var(--black);
+  font-family: var(--font-family-poppins-regular);
+  font-size: var(--font-size-m);
+  letter-spacing: 0;
+  margin-left: 7.0px;
   margin-top: 7px;
   min-height: 106px;
+  min-width: 941px;
+  mix-blend-mode: normal;
   text-align: center;
   width: 941px;
 }
-.canvas .text-3 {
-  left: 108px;
-  letter-spacing: 0px;
-  position: absolute;
+.calendar .text-3 {
+  letter-spacing: 0;
+  margin-left: 14.0px;
+  margin-top: 46px;
+  min-height: 93px;
+  min-width: 870px;
+  mix-blend-mode: normal;
   text-align: center;
-  top: 0px;
   width: 870px;
 }
-.canvas .text-4 {
-  letter-spacing: 0px;
-  margin-left: 128px;
+.calendar .text-4 {
+  color: var(--black);
+  font-family: var(--font-family-poppins-light);
+  font-size: var(--font-size-xxxxxxs);
+  font-weight: 300;
+  letter-spacing: 0;
+  margin-left: 84.0px;
   min-height: 57px;
+  min-width: 1042px;
+  mix-blend-mode: normal;
   text-align: center;
   width: 1042px;
 }
-.canvas .title {
-  letter-spacing: 0px;
-  margin-left: 1px;
+.calendar .title {
+  letter-spacing: 0;
+  margin-left: 1.0px;
   margin-top: 69px;
   min-height: 75px;
+  min-width: 627px;
+  mix-blend-mode: normal;
   text-align: center;
   width: 627px;
 }
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 * {
   box-sizing: border-box;
 }
-.dmserifdisplay-normal-abbey-26px {
-  color: var(--abbey);
-  font-family: var(--font-family-dm_serif_display);
-  font-size: var(--font-size-l);
-  font-style: normal;
-  font-weight: 400;
+.container-center-horizontal {
+  pointer-events: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
 }
-.dmserifdisplay-normal-black-28px {
-  color: var(--black);
-  font-family: var(--font-family-dm_serif_display);
-  font-size: var(--font-size-xl);
-  font-style: normal;
-  font-weight: 400;
+.container-center-horizontal > * {
+  pointer-events: auto;
+  flex-shrink: 0;
 }
-.dmserifdisplay-normal-black-48px {
-  color: var(--black);
-  font-family: var(--font-family-dm_serif_display);
-  font-size: var(--font-size-xxxxxl);
-  font-style: normal;
-  font-weight: 400;
+.screen a {
+  text-decoration: none;
+  display: contents;
 }
-.dmserifdisplay-normal-pale-sky-18px {
-  color: var(--pale-sky);
-  font-family: var(--font-family-dm_serif_display);
-  font-size: var(--font-size-xxs2);
-  font-style: normal;
-  font-weight: 400;
-}
-.dmserifdisplay-normal-white-24px {
-  color: var(--white);
-  font-family: var(--font-family-dm_serif_display);
-  font-size: var(--font-size-m);
-  font-style: normal;
-  font-weight: 400;
-}
-.poppins-bold-black-22px {
-  color: var(--black);
-  font-family: var(--font-family-poppins);
-  font-size: var(--font-size-s);
-  font-style: normal;
-  font-weight: 700;
-}
-.poppins-bold-black-39px {
-  color: var(--black);
-  font-family: var(--font-family-poppins);
-  font-size: var(--font-size-xxxxl);
-  font-style: normal;
-  font-weight: 700;
-}
-.poppins-light-black-14px {
-  color: var(--black);
-  font-family: var(--font-family-poppins);
-  font-size: var(--font-size-xxxxxs);
-  font-style: normal;
-  font-weight: 300;
-}
-.poppins-normal-black-18px {
-  color: var(--black);
-  font-family: var(--font-family-poppins);
-  font-size: var(--font-size-xxs2);
-  font-style: normal;
-  font-weight: 400;
-}
-.poppins-normal-black-24px {
-  color: var(--black);
-  font-family: var(--font-family-poppins);
-  font-size: var(--font-size-m);
-  font-style: normal;
-  font-weight: 400;
-}
-:root {
-  --abbey: rgba(79, 79, 79, 1);
-  --black: rgba(0, 0, 0, 1);
-  --font-family-dm_serif_display: "DM Serif Display", Helvetica;
-  --font-family-poppins: "Poppins", Helvetica;
-  --font-size-l: 26px;
-  --font-size-m: 24px;
-  --font-size-s: 22px;
-  --font-size-xl: 28px;
-  --font-size-xxs2: 18px;
-  --font-size-xxxxl: 39px;
-  --font-size-xxxxxl: 48px;
-  --font-size-xxxxxs: 14px;
-  --lilac: rgba(207, 138, 200, 1);
-  --pale-sky: rgba(113, 119, 131, 1);
-  --white: rgba(255, 255, 255, 1);
-  --white-2: rgba(255, 255, 255, 0.85);
+.smart-layers-pointers,
+.smart-layers-pointers * {
+  pointer-events: auto;
+  visibility: visible;
 }
 
 	</style>
 </head>
 
 <body>
-	<div class="canvas">
-  <div class="group-4">
-    <div class="overlap-group1">
-      <div class="group-24">
-        <div class="group-1">
-          <div class="overlap-group2"><div class="sw dmserifdisplay-normal-white-24px">SW</div></div>
+	<div class="container-center-horizontal">
+    <div class="calendar screen">
+      <div class="group-4">
+        <div class="overlap-group1">
+          <div class="group-24">
+            <div class="group-1">
+              <div class="overlap-group2"><div class="sw dmserifdisplay-regular-normal-white-24px">SW</div></div>
+            </div>
+            <div class="surname">Sweet Memories</div>
+          </div>
+          <div class="home"><div class="place dmserifdisplay-regular-normal-pale-sky-18px">Home</div></div>
+          <div class="about smart-layers-pointers">
+            <div class="about-i4724112 dmserifdisplay-regular-normal-pale-sky-18px">About</div>
+          </div>
+          <div class="products dmserifdisplay-regular-normal-pale-sky-18px">Products</div>
+          <div class="contact-us"><div class="text-1 dmserifdisplay-regular-normal-pale-sky-18px">Contact Us</div></div>
+          <div class="group-2 smart-layers-pointers">
+            <div class="overlap-group3">
+              <div class="log-in-i4727117 dmserifdisplay-regular-normal-white-24px">Log In</div>
+            </div>
+          </div>
         </div>
-        <div class="surname dmserifdisplay-normal-abbey-26px">Sweet Memories</div>
       </div>
-      <div class="home"><div class="place dmserifdisplay-normal-pale-sky-18px">Home</div></div>
-      <div class="about smart-layers-pointers">
-        <div class="about-i4770112 dmserifdisplay-normal-pale-sky-18px">About</div>
-      </div>
-      <div class="products dmserifdisplay-normal-pale-sky-18px">Products</div>
-      <div class="contact-us"><div class="text-1 dmserifdisplay-normal-pale-sky-18px">Contact Us</div></div>
-      <div class="group-2 smart-layers-pointers">
-        <div class="overlap-group3"><div class="log-in-i4773117 dmserifdisplay-normal-white-24px">Log In</div></div>
-      </div>
-    </div>
-  </div>
-  <img
-    class="photo-prints-banner-1"
-    src="https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/6078595c54d0489b8747566c/img/photo-prints-banner-1-2@1x.png"
-  />
-  <h1 class="title dmserifdisplay-normal-black-48px">Canvas Prints</h1>
-  <div class="text-2 poppins-normal-black-24px">
-    Hang bursts of happiness on the wall of your choice. Transform the feel of your home or office with our 12- color
-    ink superior quality printed photos on canvas at affordable rates
-  </div>
-  <div class="overlap-group11">
-    <div class="overlap-group">
-      <div class="text-3 dmserifdisplay-normal-black-48px">Custom Canvas Prints for Your Walls</div>
       <img
-        class="group-20"
-        src="https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/6078595c54d0489b8747566c/img/group-20-2@2x.svg"
+        class="photo-prints-banner-1"
+        src="https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/6078595c54d0489b8747566c/img/photo-prints-banner-1-1@1x.png"
       />
+      <h1 class="title dmserifdisplay-regular-normal-black-48px">Photo Calendar</h1>
+      <div class="text-2">
+        Splash smiling rainbows on your awesome memories with stunning Desk Calendars. Take happy moments out of your
+        smartphones and turn it into high quality Photo Calendars. Create now- Enjoy 365 days.
+      </div>
+      <div class="flex-row">
+        <div class="contains-13-photos poppins-semi-bold-black-24px">Contains 13 Photos</div>
+        <div class="size-6-x-9 poppins-semi-bold-black-24px">Size: 6’ x 9’</div>
+      </div>
+      <div class="at-just-inr-500">At Just INR&nbsp;&nbsp;500</div>
+      <a href="https://forms.gle/KF5hCLjdR5y2Rb988">
       <img
-        class="group-19"
-        src="https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/6078595c54d0489b8747566c/img/group-19-2@2x.svg"
-      />
-      <img
-        class="group-18"
-        src="https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/6078595c54d0489b8747566c/img/group-18-2@2x.svg"
-      />
-      <div class="group-35">
-        <div class="overlap-group-1">
-          <div class="starts-from poppins-normal-black-18px">Starts from</div>
-          <div class="price poppins-bold-black-22px">INR 1450</div>
-        </div>
-        <div class="overlap-group-2">
-          <div class="rectangle-27"></div>
-          <div class="buy-now dmserifdisplay-normal-black-28px">Buy Now</div>
-        </div>
-      </div>
-      <div class="group-36">
-        <div class="overlap-group-1">
-          <div class="starts-from poppins-normal-black-18px">Starts from</div>
-          <div class="price poppins-bold-black-22px">INR 1650</div>
-        </div>
-        <div class="overlap-group-2">
-          <div class="rectangle-27"></div>
-          <div class="buy-now dmserifdisplay-normal-black-28px">Buy Now</div>
+        class="group-17"
+        src="https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/608ae65fa6b68b267305c78c/img/group-17@2x.svg"
+      /></a>
+      <div class="text-3 dmserifdisplay-regular-normal-black-48px">Photo Calender Categories</div>
+      <div class="flex-row-3">
+        <img
+          class="group-"
+          src="https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/608ae65fa6b68b267305c78c/img/group-18@2x.svg"
+        />
+        <div class="overlap-group">
+          <img
+            class="group-20"
+            src="https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/6078595c54d0489b8747566c/img/group-20-1@2x.svg"
+          />
+          <img
+            class="group-19"
+            src="https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/6078595c54d0489b8747566c/img/group-19-1@2x.svg"
+          />
         </div>
       </div>
-    </div>
-    <div class="group-34">
-      <div class="overlap-group-1">
-        <div class="starts-from poppins-normal-black-18px">Starts from</div>
-        <div class="price poppins-bold-black-22px">INR 999</div>
+      <div class="flex-row-1">
+        <img
+          class="group-23"
+          src="https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/6078595c54d0489b8747566c/img/group-23@2x.svg"
+        />
+        <img
+          class="group-21"
+          src="https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/6078595c54d0489b8747566c/img/group-21-1@2x.svg"
+        />
+        <img
+          class="group-22"
+          src="https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/6078595c54d0489b8747566c/img/group-22-1@2x.svg"
+        />
       </div>
-      <div class="overlap-group-2">
-        <div class="rectangle-27"></div>
-        <div class="buy-now dmserifdisplay-normal-black-28px">Buy Now</div>
+      <div class="flex-row-2">
+        <img
+          class="group-"
+          src="https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/6078595c54d0489b8747566c/img/group-24@2x.svg"
+        />
+        <img
+          class="group-25"
+          src="https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/6078595c54d0489b8747566c/img/group-25@2x.svg"
+        />
       </div>
-    </div>
-  </div>
-  <div class="flex-row">
-    <img
-      class="group-2-1"
-      src="https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/6078595c54d0489b8747566c/img/group-21-2@2x.svg"
-    />
-    <img
-      class="group-2-1"
-      src="https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/6078595c54d0489b8747566c/img/group-22-2@2x.svg"
-    />
-  </div>
-  <div class="flex-row-1">
-    <div class="group-37">
-      <div class="overlap-group-1">
-        <div class="starts-from poppins-normal-black-18px">Starts from</div>
-        <div class="price poppins-bold-black-22px">INR 1900</div>
-      </div>
-      <div class="overlap-group-2">
-        <div class="rectangle-27"></div>
-        <div class="buy-now dmserifdisplay-normal-black-28px">Buy Now</div>
-      </div>
-    </div>
-    <div class="group-38">
-      <div class="overlap-group-1">
-        <div class="starts-from poppins-normal-black-18px">Starts from</div>
-        <div class="price poppins-bold-black-22px">INR 2250</div>
-      </div>
-      <div class="overlap-group-2">
-        <div class="rectangle-27"></div>
-        <div class="buy-now dmserifdisplay-normal-black-28px">Buy Now</div>
-      </div>
+      <div class="for-social-media">FOR SOCIAL MEDIA</div>
+      <p class="text-4">All CopyRights Resevered by Sweet Mermories</p>
     </div>
   </div>
-  <div class="for-social-media poppins-bold-black-39px">FOR SOCIAL MEDIA</div>
-  <p class="text-4 poppins-light-black-14px">All CopyRights Resevered by Sweet Mermories</p>
-</div>
 </body>
 </html>

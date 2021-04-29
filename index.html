@@ -2,7 +2,10 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>index</title>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<title>Sweet Memories</title>
 <style>
 	@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 .home-page {
@@ -449,14 +452,17 @@
   width: 1673px;
 }
 .home-page .overlap-group5 {
-  align-items: flex-end;
-  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/6079164b366e5e1f2eaead04/img/rectangle-5-1@1x.svg);
-  background-size: 100% 100%;
-  display: flex;
-  flex-direction: column;
-  min-height: 1416px;
-  padding: 80px 242.8px;
-  width: 1600px;
+    align-items: flex-end;
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/6079164b366e5e1f2eaead04/img/rectangle-5-1@1x.svg);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    min-height: 1416px;
+    padding-top: 80px;
+    padding-right: 242.8px;
+    padding-left: 242.8px;
+    padding-bottom: 80px;
+    width: 1600px;
 }
 .home-page .overlap-group6 {
   align-items: flex-end;
@@ -945,16 +951,24 @@ a {
   display: contents;
 }
 
-	</style>
+	.btn-align {
+    margin-right: 53px;
+    margin-left: 83px;
+}
+</style>
+<link href="css/bootstrap-4.3.1.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 	<div class="home-page">
   <div class="top-section">
     <div class="overlap-group-2">
       <img
         class="the-anchor-6hgs-f-ie-unsplash-1"
-        src="https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/60781fa2e469567d8c8dd7d2/img/the-anchor-6hgsktgpfie-unsplash-1@1x.png"
+        src="images/header.jpg"
       />
       <div class="rectangle-5"></div>
       <div class="group-4">
@@ -978,7 +992,7 @@ a {
             </div></a
           >
           <div class="group-2 smart-layers-pointers">
-            <div class="overlap-group3"><div class="log-in dmserifdisplay-regular-normal-white-24px">Log In</div></div>
+            <div class="overlap-group3"><div class="log-in dmserifdisplay-regular-normal-white-24px">Buy Now</div></div>
           </div>
         </div>
       </div>
@@ -1000,10 +1014,14 @@ a {
       />
     </div>
   </div>
+  <section>
   <div class="product" id="product">
     <div class="overlap-group5">
       <div class="our-products valign-text-middle dmserifdisplay-regular-normal-black-64px">Our Products</div>
-      <a href="Polaroids.html">
+	  
+		
+		
+<!--a href="Polaroids.html">
 		  <img
         class="group-5" 
         src="https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/60781fa2e469567d8c8dd7d2/img/group-5@1x.svg"/>
@@ -1011,12 +1029,81 @@ a {
       <a href="PhotoPrint.html"><img
         class="group-6"
         src="https://anima-uploads.s3.amazonaws.com/projects/605dc2da1e0f3fed41b82fed/releases/60781fa2e469567d8c8dd7d2/img/group-6@1x.svg"
-									 /></a>
+									 /></a--
       <div class="overlap-group-3">
         <div class="explore-all valign-text-middle dmserifdisplay-regular-normal-black-39px">Explore All</div>
+      </div-->
+      <br>
+      <br>
+      <br>
+    <div class="card-deck">
+      <div class="card">
+        <img src="images/frame2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Photo Frame</h5>
+          <!--p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p-->
+            <a href="frame.html" class="btn btn-primary">View Details</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/polaroids.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Polaroids</h5>
+          <!--p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p-->
+            <a href="Polaroids.html" class="btn btn-primary">View Details</a>
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/photobook.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">PhotoBooks</h5>
+          <!--p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p-->
+            <a href="PhotoBook.html" class="btn btn-primary">View Details</a>
+        </div>
       </div>
     </div>
+    <br><br><br>
+    <div class="card-deck">
+      <div class="card">
+        <img src="images/calendars.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Photo Calendar</h5>
+          <!--p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p-->
+            <a href="calendar.html" class="btn btn-primary">View Details</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/canvas.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Canvas Prints</h5>
+          <!--p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p-->
+            <a href="canvas.html" class="btn btn-primary">View Details</a>
+
+        </div>
+      </div>
+      <div class="card">
+        <img src="images/photo_prints_6x8.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Photo Prints</h5>
+          <!--p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p-->
+          <a href="PhotoPrint.html" class="btn btn-primary">View Details</a>
+        </div>
+      </div>
+    </div>
+    
   </div>
+
+</section>
+
+
+
   <div class="full-customized">
     <div class="group-16">
       <div class="overlap-group1-1">
